@@ -6,6 +6,11 @@
     /*background-color: red;*/
 }
 
+.main img{
+    max-width: 150px;
+    border-radius: 5rem;
+}
+
 .nav{
     display: flex;
     flex-direction: row;

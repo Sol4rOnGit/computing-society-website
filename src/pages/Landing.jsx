@@ -16,6 +16,7 @@ function Landing(){
             <div className={styles.main}>
                 <div className={styles.wrapper}>
                     <h1 className={styles.title}>Welcome to the <span className={styles.UCGS}>UCGS</span> <span className={styles.CSDpt}>Computing Department</span></h1>
+                    {/*<img src="/src/img/CompSocLogoEST.png" alt="CSLogo" />*/}
 
                     <h3><span className={styles.dynamicTxt}>
                             <TypeWriter

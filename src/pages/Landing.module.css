@@ -8,6 +8,12 @@
     text-align: center;
 }
 
+.main img{
+    max-width: 25vh;
+    border-radius: 1000rem;
+}
+
+
 .wrapper{
     width: 100vw;
     height: 70vh;
@@ -20,6 +26,10 @@
 
 .title{
     text-shadow: 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.main h3{
+    margin: 0;
 }
 
 .dynamicTxt{
@@ -41,7 +51,7 @@
 
 /* Card preferences */
 .cardHolder{
-    margin-top: 10vh;
+    margin-top: 20vh;
     
     display: flex;
     flex-direction: row;
