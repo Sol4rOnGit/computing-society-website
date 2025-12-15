@@ -2,6 +2,7 @@
     width: 100vw;
     position: fixed;
     top: 0;
+    text-shadow: 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
     /*background-color: red;*/
 }
 
@@ -27,6 +28,7 @@
     padding-right: 30px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
     list-style: none;
     font-size: large;
@@ -36,8 +38,21 @@
     color: white;
 }
 
+.element:hover{
+    
+}
+
+.ProblemsTxt{
+    font-size: larger;
+    color: var(--complementary);
+}
+
 @media (max-width: 500px){
-    .Banner{
+    .main h3{
         visibility: hidden;
+    }
+
+    .main{
+        justify-content: center;
     }
 }

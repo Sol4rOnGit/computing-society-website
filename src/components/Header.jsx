@@ -8,12 +8,12 @@ function Header(){
             <ul className={styles.nav}>
                 <div className={styles.left}>
                     {/*<img className={styles.logo} src="src/img/UCGS_logo.webp" alt="" />*/} {/* Logo if anyone wants */}
-                    <h3>Official UCGS Computing Society Website</h3>
+                    <h3 className={styles.CompSocTitle}>UCGS Comp Soc</h3>
                 </div>
                 <div className={styles.stack}>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/problems">Problems</Link></li>
+                    <li className={styles.element}><Link to="/">Home</Link></li>
+                    <li className={styles.element}><Link to="/about">About</Link></li>
+                    <li className={styles.element}><Link to="/problems"><span className={styles.ProblemsTxt}>Problems</span></Link></li>
                 </div>
             </ul>
         </div>

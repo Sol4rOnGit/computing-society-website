@@ -1,5 +1,7 @@
 :root{
     --background-colour: rgba(255, 255, 255, 0.5);
+    --light-blue-accent: #00c2f3;
+    --complementary: #ff3d0c;
 
     --ucgs-amber: #fcbe02;
     --ucgs-copper-rust: #864349;

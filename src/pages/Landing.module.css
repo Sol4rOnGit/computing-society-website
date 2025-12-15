@@ -16,10 +16,53 @@
     align-items: center;
 }
 
+/* Text alterations*/
+
+.title{
+    text-shadow: 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.dynamicTxt{
+    font-size: 3rem;
+    color: var(--complementary);
+}
+
+.smallerText{
+    font-size: 0.8rem;
+}
+
 .UCGS{
     color: var(--ucgs-amber);
 }
 
+.CSDpt{
+    color: var(--light-blue-accent);
+}
+
+/* Card preferences */
+.cardHolder{
+    margin-top: 10vh;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 30px;
+    width: 100vw;
+}
+
+/*Footer*/
+
+.Footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.Footer p{
+    margin: 0;
+}
 
 @media (max-width: 500px){
     .logo{

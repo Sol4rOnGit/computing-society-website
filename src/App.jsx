@@ -11,6 +11,8 @@ import Landing from './pages/Landing';
 import About from './pages/About';
 import ProblemsLanding from './pages/ProblemsLanding';
 
+import Broken from './pages/Broken'
+
 function App() {
 
   return (
@@ -22,6 +24,10 @@ function App() {
         <Route path="/problems" element={ <ProblemsLanding/> }/>
 
         {/* Problem pages */}
+
+
+        {/* Page to redirect given broken */}
+        <Route path="/broken" element={ <Broken/> }/>
       </Routes>
     </Router>
   )
