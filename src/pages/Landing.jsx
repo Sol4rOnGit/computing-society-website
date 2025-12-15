@@ -9,7 +9,10 @@ function Landing(){
         <>
             <Header />
             <div className={styles.main}>
-                <h1>Landing</h1>
+                <div className={styles.wrapper}>
+                    <h1>Welcome to the <span className={styles.UCGS}>UCGS</span> Computing Department</h1>
+                    <p>Navigate to where you need to using the navbar</p>
+                </div>
             </div>
         </>
     )

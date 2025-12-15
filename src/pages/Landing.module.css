@@ -1,3 +1,28 @@
 .main{
-    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.UCGS{
+    color: var(--ucgs-amber);
+}
+
+
+@media (max-width: 500px){
+    .logo{
+        width: 200px
+    }
 }

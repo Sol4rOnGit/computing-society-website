@@ -2,7 +2,7 @@
     width: 100vw;
     position: fixed;
     top: 0;
-    background-color: red;
+    /*background-color: red;*/
 }
 
 .nav{
@@ -16,6 +16,13 @@
     font-size: large;
 }
 
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
 .stack{
     padding-right: 30px;
     display: flex;
@@ -27,4 +34,10 @@
 
 .main a{
     color: white;
+}
+
+@media (max-width: 500px){
+    .Banner{
+        visibility: hidden;
+    }
 }
