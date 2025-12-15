@@ -1,0 +1,30 @@
+.main{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: red;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main h3{
+    font-size: large;
+}
+
+.stack{
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    font-size: large;
+}
+
+.main a{
+    color: white;
+}
