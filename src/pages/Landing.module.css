@@ -26,6 +26,7 @@
 
 .title{
     text-shadow: 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+    margin-bottom: 7vh;
 }
 
 .main h3{
@@ -51,7 +52,7 @@
 
 /* Card preferences */
 .cardHolder{
-    margin-top: 20vh;
+    margin-top: 10vh;
     
     display: flex;
     flex-direction: row;

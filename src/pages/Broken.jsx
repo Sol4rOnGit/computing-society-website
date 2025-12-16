@@ -10,8 +10,8 @@ function About(){
         <>
             <Header />
             <div className={styles.centre}>
-                <h1>This is broken Page. Return to home page by clicking <Link to="/">here</Link></h1>
-                <p>Report this to Computing Department if you can thank you.</p>
+                <h1>This page is currently being built or being maintained. Return to home page by clicking <Link to="/">here</Link></h1>
+                <p>Report this to Computing Department if belive this is not due can thank you.</p>
             </div>
         </>
     )

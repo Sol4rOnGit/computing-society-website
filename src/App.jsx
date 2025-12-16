@@ -24,7 +24,7 @@ function App() {
         <Route path="/problems" element={ <ProblemsLanding/> }/>
 
         {/* Problem pages */}
-
+        
 
         {/* Page to redirect given broken */}
         <Route path="/broken" element={ <Broken/> }/>

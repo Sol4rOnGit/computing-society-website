@@ -40,8 +40,8 @@ function Landing(){
                         
                         <LandingCard title="Questions"
                                      description="We are to add lots of questions from all levels of difficulty. For now try leetcode for experienced programmers: https://leetcode.com/"
-                                     linkText="Try leetcode"
-                                     linkHref='https://leetcode.com/'
+                                     linkText="Try problems"
+                                     linkHref='/problems'
                                      />
                         
                         <LandingCard title="Get Involved"
