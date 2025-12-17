@@ -43,8 +43,12 @@
     color: white;
 }
 
+.element{
+    transition: font-size 0.2s;
+}
+
 .element:hover{
-    
+    font-size: x-large;
 }
 
 .ProblemsTxt{

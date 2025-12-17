@@ -1,13 +1,14 @@
-.cardWrapper{
+.card{
     text-align: center;
 
     max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
 
-    background-color: rgba(124, 124, 124, 0.2);
+    background: rgba(58, 81, 96, 0.8);
     border-radius: 3rem;
 
     box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
@@ -15,16 +16,7 @@
     transition: box-shadow 0.2s, transform 0.2s ease;
 }
 
-.cardWrapper:hover {
+.card:hover {
   transform: translateY(-4px);
   box-shadow: 0.7rem 0.7rem rgba(0, 0, 0, 0.15);
-}
-
-.cardWrapper h2{
-    font-size: 2rem;
-    margin: 0;
-}
-
-.link{
-    color: wheat;
 }

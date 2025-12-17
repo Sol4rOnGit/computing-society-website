@@ -6,3 +6,12 @@
     align-items: center;
     justify-content: center;
 }
+
+.cardHolder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}

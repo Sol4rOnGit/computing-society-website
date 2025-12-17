@@ -44,10 +44,22 @@
 
 .UCGS{
     color: var(--ucgs-amber);
+    display: inline-block; /* Needed so translation works */
+    transition: transform 0.2s ease;
+}
+
+.UCGS:hover{
+    transform: translateY(-5px);
 }
 
 .CSDpt{
     color: var(--light-blue-accent);
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.CSDpt:hover{
+    transform: translateY(-5px);
 }
 
 /* Card preferences */

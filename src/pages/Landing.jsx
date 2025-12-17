@@ -45,7 +45,7 @@ function Landing(){
                                      />
                         
                         <LandingCard title="Get Involved"
-                                     description="Have any ideas for Computing Society (every Tuesday lunchtime in Lasher's room)"
+                                     description="Have any ideas for Computing Society? Let us know (every Tuesday lunchtime in Lasher's room)"
                                      linkText="Get started"
                                      />
                     </div>
