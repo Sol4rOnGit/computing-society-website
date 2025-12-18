@@ -12,6 +12,7 @@ function About(){
                     <h1>About us</h1>
                     <p>The UCGS Computing Society is a student-led community run by experiened sixth form students, open for everyone interested in computer science, technology and problem solving and programming.</p>
                     <p>We aim to create a welcoming place for people to <strong>learn, build, collaborate and network</strong> with their peers, regardless of previous experience.</p>
+                    <p>Leaders of the society 2025: Hiresh Solanki, Aryan Jha</p>
                 </div>
 
                 <div className={styles.section}>

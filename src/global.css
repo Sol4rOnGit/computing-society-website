@@ -3,6 +3,11 @@
     --light-blue-accent: #00c2f3;
     --complementary: #ff3d0c;
 
+    --shadow: rgba(0, 0, 0, 0.2);
+
+    --background-colour: #242424;
+    --darker-background-colour: #1a1a1a;
+
     --ucgs-amber: #fcbe02;
     --ucgs-copper-rust: #864349;
 }

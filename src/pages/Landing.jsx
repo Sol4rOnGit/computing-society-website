@@ -51,7 +51,6 @@ function Landing(){
                     </div>
 
                     <div className={styles.Footer}>
-                        <p className={styles.smallerText}> Navigate to where you need to using the navbar at the top</p>
                         <p>Built By Hiresh | 2025</p>
                     </div>
                 </div>

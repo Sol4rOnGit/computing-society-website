@@ -13,19 +13,19 @@
     border-radius: 1000rem;
 }
 
-
 .wrapper{
     width: 100vw;
     height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 /* Text alterations*/
 
 .title{
-    text-shadow: 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+    text-shadow: 0.4rem 0.4rem var(--shadow);
     margin-bottom: 7vh;
 }
 
@@ -65,6 +65,7 @@
 /* Card preferences */
 .cardHolder{
     margin-top: 10vh;
+    height: max(80vh, fit-content);
     
     display: flex;
     flex-direction: row;
@@ -81,6 +82,7 @@
     position: fixed;
     bottom: 0;
     width: 100vw;
+    background: var(--darker-background-colour);
 }
 
 .Footer p{
@@ -90,5 +92,13 @@
 @media (max-width: 500px){
     .logo{
         width: 200px
+    }
+
+    .wrapper{
+        justify-content: start;
+    }
+
+    .cardHolder{
+        padding-bottom: 200px;
     }
 }
