@@ -2,6 +2,7 @@
     width: 100vw;
     position: fixed;
     top: 0;
+    z-index: 1000;
     text-shadow: 0.2rem 0.2rem var(--shadow);
     background-color: var(--background-colour);
     /*background: linear-gradient(var(--background-colour) 20%, var(--darker-background-colour));*/

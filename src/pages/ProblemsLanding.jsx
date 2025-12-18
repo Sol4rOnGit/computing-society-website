@@ -25,7 +25,7 @@ function ProblemsLanding(){
                                 href="https://www.w3schools.com/python/default.asp"
                                 hrefTxt="Go to w3schools.com"/>
                     <ProblemCard title="CS50"
-                                description='The CS50 "Introduction to Computer Science" course by harvard is reccomended to get you to understanding a large amount of what you need in an 11 week course. Try it out at home. If this is blocked on school PCs please tell someone! (We will try our best to get it fixed asap).'
+                                description='The CS50 "Introduction to Computer Science" course by harvard is reccomended to get you to understanding a large amount of what you need in an 11 week course. Try it out at home. If this is blocked on school PCs please tell someone! (We will try our best to get it fixed asap). CS50P is better suited towards intermediate people or people who just want to learn python.'
                                 p2="This is perfect for a certification on your LinkedIn, or to deepen your understanding of programming"
                                 isButton="True"
                                 isExternalLink="True"
