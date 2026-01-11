@@ -11,7 +11,7 @@ function About(){
             <Header />
             <div className={styles.centre}>
                 <h1>This page is currently being built or being maintained. Return to home page by clicking <Link to="/">here</Link></h1>
-                <p>Report this to Computing Department if belive this is not due can thank you.</p>
+                <p>Report this to Computing Department if belive this is not meant to occur. Thank you!</p>
             </div>
         </>
     )
