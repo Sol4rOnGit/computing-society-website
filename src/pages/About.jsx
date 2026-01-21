@@ -23,9 +23,10 @@ function About(){
                 <div className={styles.section}>
                     <h2>Support and Maintainance</h2>
                     <p>The website is currenlty maintained by Hiresh</p>
-                    <p>For any issues or support, please email <a href="mailto:20solankih@uptoncourtgrammar.org.uk
-                            ?subject=Computing%20Society%20Support
-                            &body=Please%20describe%20the%20issue%20:)"
+                    <p>For any issues, support or any suggestions please email <a 
+                            href="mailto:20solankih@uptoncourtgrammar.org.uk
+                                ?subject=Computing%20Society%20Support
+                                &body=Please%20describe%20the%20issue%20here"
                             target="_blank"
                             rel="noopener">
                             20solankih@uptoncourtgrammar.org.uk
