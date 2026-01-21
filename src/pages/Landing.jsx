@@ -34,7 +34,7 @@ function Landing(){
 
                     <div className={styles.cardHolder}>
                         <LandingCard title="Resources"
-                                     description="Check back later for lots of resources we'll have pulled together. Everything you need to succeed here"
+                                     description="Check back later for lots of resources we'll have pulled together everything you need to succeed here."
                                      linkText="Go to resources"
                                      />
                         
@@ -47,6 +47,7 @@ function Landing(){
                         <LandingCard title="Get Involved"
                                      description="Have any ideas for Computing Society? Let us know (every Tuesday lunchtime in Lasher's room)"
                                      linkText="Get started"
+                                     linkHref="/about"
                                      />
                     </div>
 
