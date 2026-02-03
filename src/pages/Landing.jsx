@@ -50,10 +50,9 @@ function Landing(){
                                      linkHref="/about"
                                      />
                     </div>
-
-                    <div className={styles.Footer}>
-                        <p>Built By Hiresh | 2025</p>
-                    </div>
+                </div>
+                <div className={styles.Footer}>
+                    <p>Built By Hiresh | 2025</p>
                 </div>
             </div>
         </>
